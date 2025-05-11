@@ -1,0 +1,99 @@
+.contact{
+    padding: 20px 20px;
+    margin-left: 10px;
+}
+
+.contact h1{
+    font-size: 2rem;
+    color: white;
+    /* text-align: center; */
+}
+
+.contact-form{
+    margin-top: 100px;
+}
+
+.user-cred{
+    display: flex;
+    justify-content: space-around;
+    /* gap: 20px; */
+}
+
+
+.contact-form label{
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+
+.contact-form input{
+    width: 44%;
+    height: 30px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid hsl(0, 0%, 20%);
+    background-color: transparent;
+    outline: none;
+    color: white;
+}
+
+.contact-form textarea{
+    width: 94%;
+    height: 260px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid hsl(0, 0%, 20%);
+    background-color: transparent;
+    outline: none;
+    color: white;  
+    /* margin-left: 15px; */
+}
+
+.contact-btn{
+    width: 25%;
+    height: 40px;
+    background-color: #98740a;
+    border: none;
+    border-radius: 5px;
+    color: hsl(0, 0%, 10%);
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    outline: none;
+    margin-left: 15px;
+    transition: all .2s ease-in-out;
+}
+
+.contact-btn:hover{
+    background-color: #ffdb70;
+    color: hsl(0, 0%, 10%);
+}
+
+
+@media  screen and (max-width: 768px) {
+    .contact-form input{
+        width: 90%;
+    }
+    .contact-form textarea{
+        width: 90%;
+    }
+    .user-cred{
+        flex-direction: column;
+        align-items: center;
+    }
+  .contact-form textarea{
+        width: 90%;
+        margin: 0;
+    }
+
+    .contact-btn{
+        width: 90%;
+        margin: 0;
+        text-align: center;
+    }
+    
+}

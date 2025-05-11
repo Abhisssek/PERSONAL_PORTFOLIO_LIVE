@@ -1,0 +1,80 @@
+.navbar{
+    /* width: 100px; */
+    text-align: end;
+    padding: 20px 40px;
+    position: absolute;
+    right: 0px;
+    background-color: #2b2b2cbf;
+    border-radius: 0px 20px 0px 20px;
+}
+
+.navbar ul{
+    gap: 50px;
+}
+
+.navbar a{
+    transition: all .15s ease-in-out;
+}
+.navbar li a:hover{
+    color: #ffdb70;
+    border-radius: 10px;   
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+
+.navbar ul li a {
+  color: white; /* default color */
+  text-decoration: none;
+}
+
+.navbar ul li a.active {
+  color: yellow; /* color for active link */
+}
+
+
+
+@media screen and (max-width: 1100px) {
+  .navbar {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%; /* or specify a width like 90% if needed */
+    z-index: 1000; /* optional, ensures it stays on top */
+    border-radius: 10px 10px 0 0;
+    background-color: #2b2b2cdb;
+    
+  }
+
+  .navbar ul {
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px; /* Adjust gap as needed */
+  }
+  
+}
+
+
+@media screen and (max-width: 400px) {
+  .navbar {
+    width: 90%; /* or specify a width like 90% if needed */
+    padding: 10px;
+     /* Adjust padding for smaller screens */
+     height: 30px;
+  }
+
+  .navbar ul {
+    /* flex-direction: column; */
+    align-items: center;
+    gap: 10px; /* Adjust gap as needed */
+  }
+  
+  .navbar a {
+    font-size: 0.9rem;
+    /* Adjust font size for smaller screens */
+  }
+}
