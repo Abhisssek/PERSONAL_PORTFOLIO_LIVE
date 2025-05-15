@@ -10,8 +10,9 @@ export const About = () => {
     <div className='about main-article'>
         <h1>About Me</h1>
         <hr className='small-horizontal' />
-        <p>I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.<br /><br />
-        My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.</p>
+        <p>I'm Frontend Developer from Odisha, India, working in web development but also some works are done in backend. I enjoy turning complex problems into simple, beautiful and intuitive designs.<br /><br />
+My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.</p>
+
         <div className="main-service">
           <h1>What I'm Doing</h1>
         <div className="services">
